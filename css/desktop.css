@@ -1,0 +1,279 @@
+body{
+    background-color: rgb(243, 243, 243);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-y: inherit;
+    color: white;
+    height: 1200px;
+    overflow: hidden;
+}
+
+@media only screen and (min-width : 722px) {
+.navbar{
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.582);
+    z-index: 999999999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    height: 55px;
+}
+
+#menu{
+    position: fixed;
+    right: 100px;
+    top: 0px;
+}
+
+.nav-cntc{
+    border: transparent;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+}
+
+.container li{
+    display: inline;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.brand h1{
+    font-size: 20px;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+}
+
+.brand{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 100px;
+}
+
+.utama{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    color: white;
+    top: 50px;
+    left: 0;
+    z-index: 9;
+    height: 100%;
+}
+
+.pic{
+    width: 40%;
+    position: fixed;
+    right: 30%;
+    z-index: 9;
+}
+
+.kata{
+    position: fixed;
+    left: 24%;
+    top: 50%; 
+    width: 50%;
+    z-index: 9; 
+    text-align: center;
+}
+
+.nav-btn{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-style: italic;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    border-radius: 10px;
+    display: inline-table;
+    margin-right: 30px;
+    border: 2px solid white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.store{
+    width: 100%;
+    position: fixed;
+    color: black;
+    top: 50px;
+    left: 0;
+    z-index: 9;
+    height:100%;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+#s-item{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.store-item{
+    position: fixed;
+    width: 80%;
+    height: 65%;
+    border: 1px solid rgb(214, 214, 214);
+    left: 8%;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: white;
+    padding-top: 20px;
+    top: 120px;
+}
+
+.item{
+    width: 160px;
+    border: 1px solid rgb(230, 228, 228);
+    padding:20px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.item:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.397);
+}
+
+.item h1{
+    font-size: 18px;
+}
+
+.item p{
+    font-size: 11px;
+    font-weight: normal;
+    margin-top: -10px;
+}
+
+#myBtn{
+    width: 100%;
+    border: 1px solid black;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#myBtn:hover{
+    background-color: black;
+    color: white
+}
+
+#price{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.item-pic{
+    width: 130px;
+    margin-bottom: -30px;
+}
+
+#ipxs{
+    height: 230px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+    width: 370px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.582);
+    display: none;
+    position: fixed;
+    top: 130px;
+    left: 40%;
+    z-index: 9999999;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    width: 350px;
+    padding: 10px;
+    background-color: white;
+  }
+
+  .form-container h1{
+      font-size: 20px;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 300px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: #4CAF50;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+.contact-popup {
+    width: 370px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.582);
+    display: none;
+    position: fixed;
+    top: 70px;
+    right: 50px;
+    z-index: 9999999;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+.contact-popup h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-close{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    background-color: red;
+    border: transparent;
+    font-size: 20;
+    font-weight: bolder;
+    padding: 16px 20px;
+    color: white;
+}
+
+}

@@ -1,0 +1,2 @@
+Kalau mau ganti nama olshop nya ubah di line 5, line 18 (index.html, store.html, service.html) & line 57 index.html
+Kalau mau ganti contact person ubah di line 49 s/d 51 (index.html, store.html, service.html)

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		NAMAWEB.
+	</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/desktop.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<nav class="navbar">
+		<div class="container">
+			<a class="brand" href="">
+			<h1>NAMAWEB.</h1>
+			</a>
+				<ul id="menu">
+    				<li class="nav-item">
+						<a class="nav-link" id="homelink" href="">
+							Home
+						</a>
+					</li>
+
+                    <li class="nav-item">
+						<a class="nav-link" href="store.html">
+							Store
+						</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="service.html">
+							Service
+						</a>
+					</li>
+
+					<li class="nav-item">
+						<button id="myBtn1" onclick="contactOpen()" class="nav-cntc">Contact Me</button> 
+					</li>
+				</ul>
+		</div>
+	</nav>
+
+	<div class="contact-popup" id="contact">
+        <h1>NAMAWEB.</h1>
+        <button type="button" class="btn-close" onclick="closeCntc()">close</button>
+        <p><i class="fa fa-whatsapp"> </i> : +62812XXXXXXXX</p>
+        <p><i class="fa fa-phone"> </i> : 0812XXXXXXXX</p>
+        <p><i class="fa fa-at"> </i> : example@domain.com</p>
+    </div>
+
+	<div class="utama">
+        <img src="img/ip1.png" class="pic"></img>
+        <div class="kata">
+            <h1>NAMAWEB.</h1>
+            <p>Tempat beli Iphone harga pas..</p>
+            <a class="nav-btn" href="store.html">
+				<i class='fas fa-shopping-cart'></i>
+                Store
+			</a>
+
+            <a class="nav-btn" href="service.html">
+				<i class='fas fa-wrench'></i>
+                Service
+			</a>
+        </div>     
+	</div>
+	
+<script src="js/popup.js"></script>
+</body>
+</html>
