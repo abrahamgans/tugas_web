@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>
-		NAMAWEB. -Service
+		Istore. -Service
 	</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,12 +10,13 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 	<nav class="navbar">
 		<div class="container">
 			<a class="brand" href="">
-			<h1>NAMAWEB.</h1>
+			<h1>Istore.</h1>
 			</a>
 				<ul id="menu">
     				<li class="nav-item">
@@ -26,7 +27,7 @@
 
                     <li class="nav-item">
 						<a class="nav-link" href="store.html">
-							Store
+							Sales
 						</a>
 					</li>
 
@@ -44,7 +45,7 @@
 	</nav>
 
     <div class="contact-popup" id="contact">
-        <h1>NAMAWEB.</h1>
+        <h1>Istore.</h1>
         <button type="button" class="btn-close" onclick="closeCntc()">close</button>
         <p><i class="fa fa-whatsapp"> </i> : +62812XXXXXXXX</p>
         <p><i class="fa fa-phone"> </i> : 0812XXXXXXXX</p>
@@ -52,11 +53,29 @@
     </div>
 
 	<div class="utama">
-        <img src="img/ip1.png" class="pic"></img>
-        <div class="kata">
-            <h1>SERVICE.</h1>
-            <p>COMING SOON</p>   
-        </div>     
+        <div class="service">
+        <h1>SERVICE</h1>
+            <div class="service-item" id="screen">
+                <i class="fa fa-mobile-phone"  style="font-size:200px"></i>  
+                <h1>Screen</h1>
+            </div>
+
+             <div class="service-item" id="finger">
+                <i class="material-icons" style="font-size:150px;margin-top:20px;margin-bottom:30px">fingerprint</i>  
+                <h1>Touch Id</h1>
+            </div>
+
+            <div class="service-item" id="camera">
+                <div class="camera"><div class="circle"></div> </div> 
+                <h1>Camera</h1>
+            </div>
+
+             <div class="service-item" id="batt">
+                <i class="fa fa-battery-0" style="font-size:100px; transform: rotate(-90deg);margin-top:40px;margin-bottom:50px"></i>  
+                <h1>Battery</h1>
+            </div>
+            
+	    </div>     
 	</div>
 
 <script src="js/popup.js"></script>
